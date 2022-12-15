@@ -1,1 +1,39 @@
 /* style.css */
+
+body {
+    background-color:#d1cdb7; /* Nier Background Color */
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+    text-align: center;
+    color:#454138;
+}
+
+.container, .list{
+    /* border: 2px solid red; */
+    padding: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    background-color: #dcd8c0;
+    box-shadow: 2px 1px 3px rgb(45, 45, 45);
+    text-align: left;
+    /* width: auto; */
+    position: relative;
+    align-self: center;
+}
+
+.link {
+    font-weight: 540;
+}
+.link:link {
+    color:rgb(45, 45, 45)
+}
+.link:visited {
+    color: #454138;
+}
+.link:hover{
+    color: purple;
+}
