@@ -9,6 +9,9 @@ body {
     color:#454138;
 }
 
+p {
+    margin: 2em;
+}
 .container, .list{
     /* border: 2px solid red; */
     padding: 50px;
@@ -36,4 +39,10 @@ body {
 }
 .link:hover{
     color: purple;
+}
+
+.mascot {
+    width: 150px;
+    height: auto;
+    filter: blur(.5px) grayscale(.5);
 }
